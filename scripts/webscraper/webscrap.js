@@ -37,28 +37,30 @@ function createElectionPinecrest() {
 
 
     // return elections;
-    return seat1;
+    return positions;
 }
 
 
 function getCandidates() {
-    let table = document.querySelector("#widget_4_2815_2710 > table");
+    let table = document.querySelector("#widget_4_2815_2710 > div > table");
     let candidates = [];
 
     for (var i = 0, row; row = table.rows[i]; i++) {
         //iterate through rows
         //rows would be accessed using the "row" variable assigned in the for loop
         let temp = [];
-        while (!document.activeElement.querySelector("td strong")) {
+        console.log("Hello");
+        // if (!document.activeElement.querySelector("td strong")) {
 
-
-            for (var j = 0, col; col = row.cells[j]; j++) {
-                //iterate through columns
-                //columns would be accessed using the "col" variable assigned in the for loop
-                temp.push(document.activeElement.querySelector("p a").textContent);
-            }
-            candidates.push(temp)
+        console.log("I'm Working");
+        for (var j = 0, col; col = row.cells[j]; j++) {
+            //iterate through columns
+            //columns would be accessed using the "col" variable assigned in the for loop
+            temp.push(document.activeElement.querySelector("p a").textContent);
+            console.log(temp);
         }
+        candidates.push(temp)
+        // }
 
     }
     return candidates;
