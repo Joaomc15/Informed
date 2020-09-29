@@ -50,7 +50,9 @@ function getCandidates() {
         //rows would be accessed using the "row" variable assigned in the for loop
         let temp = [];
         console.log("Hello");
-        // if (!document.activeElement.querySelector("td strong")) {
+
+        //TODO this if isn't working.
+        // if (!document.activeElement.querySelector("td strong")) { 
 
         console.log("I'm Working");
         for (var j = 0, col; col = row.cells[j]; j++) {
