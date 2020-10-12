@@ -10,7 +10,7 @@ h2{
 }
 
 .group{
-    background-color: rgb(240,240,240);
+    background-color: rgb(230,230,230);
     border-radius: 1rem;
     margin-bottom: 5rem;
 }
@@ -22,25 +22,10 @@ h2{
 }
 
 .portrait{
-    height: 4rem;
-    width: 4rem;
+    height: 25%;
+    width: 20%;
     margin-top: 1rem;
 }
-
-.zoom:hover {
-    position: relative;
-    -webkit-transform: scale(1.75);
-    -ms-transform: scale(1.75);
-    -o-transform: scale(1.75);
-    transform: scale(1.75);
-    z-index: 1000;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
-}
-
 
 #logo{
     width: 40%;
@@ -57,3 +42,25 @@ h2{
     margin-right: 2em;
 }
 
+.info{
+    background-color: rgb(240,240,240);
+    border-radius: 2rem;
+}
+
+.blank-list{
+    list-style-type: none;
+}
+
+h2{
+    padding-left: .5em;
+}
+
+.website-link{
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+    font-size: larger;
+}
+
+li{
+    padding-bottom: 1em;
+}
