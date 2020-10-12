@@ -52,3 +52,9 @@ let toggleNav = function(){
         toggleNavStatus = false;
     }
 }
+
+let home = document.querySelector("#home");
+
+home.addEventListener("click", function(){
+    location.pathname = "pages\\homepage\\homepage.htm";
+});

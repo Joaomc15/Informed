@@ -13,6 +13,14 @@ h2{
     font-family: 'Playfair Display', serif;
 }
 
+h4{
+    font-size: small;
+    font-weight: 400;
+    width: 10%;
+    margin-left: -4.5%;
+    padding: 0;
+}
+
 .group{
     background-color: rgb(240,240,240);
     border-radius: 1rem;
@@ -108,7 +116,7 @@ h2{
 }
 
 .nav-sidebar ul li{
-    line-height: 60px;
+    line-height: 50px;
     list-style: none;
 }
 
@@ -133,4 +141,8 @@ h2{
     color: #cc0027;
     font-size: 1.5rem;
     white-space: nowrap;
+}
+
+.starred{
+    text-align: center;
 }
