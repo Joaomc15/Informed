@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">        
+        <div class="menubutton" onclick="toggleNav()"></div>
+        <a class="navbar-brand" href="#"></a>
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation"></button>
+            aria-expanded="false" aria-label="Toggle navigation"></button>        
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
@@ -39,8 +40,17 @@
         </div>
     </nav>
 
-
-
+    <aside class="nav-sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Breaking News</a></li>
+            <li><a href="#">Voting Info</a></li>
+            <li><a href="#">Polling Info</a></li>
+            <li><a href="#">How to Help</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </aside>
 
     <script src="homepage.js" async defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
