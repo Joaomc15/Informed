@@ -1,24 +1,3 @@
-let shannon1 = document.getElementsByClassName("prado-img");
-
-for(i=0;i<shannon1.length; i++){
-    shannon1[i].addEventListener("click", function(){
-        location.pathname = "pages\\Del Prado\\prado.htm";
-    });
-}
-
-let logo = document.querySelector("#small-logo");
-logo.addEventListener("click", function(){
-    location.pathname = "pages\\homepage\\homepage.htm";
-});
-
-let imgs =  document.querySelectorAll("img");
-
-// for(i=0;i<imgs.length; i++){
-//     imgs[i].addEventListener("mouseover", function(){
-//         imgs[i].classList.add("loading");
-//     });
-// }
-
 let toggleNavStatus = false;
 let toggleNav = function(){
     let getSidebar = document.querySelector(".nav-sidebar");

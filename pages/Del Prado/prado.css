@@ -1,7 +1,11 @@
 .my-nav{
    
     background-color: rgb(0,101,179);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 1rem 0rem;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
     font-family: 'Playfair Display', serif;
 }
 
@@ -35,7 +39,8 @@ h2{
 
 #small-logo{
     height: 2.5em;
-    width: 1.25em;
+    width: 2em;
+    margin-left: 6em;
 }
 
 .addples{
@@ -61,6 +66,78 @@ h2{
     font-size: larger;
 }
 
-li{
-    padding-bottom: 1em;
+
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.menubutton{
+    width: 30px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.menubutton:hover{
+    /* background-color: #ffffff41; */
+   
+}
+
+.nav-sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 0px;
+    height: calc(100vh - 60px);
+    background-color:rgba(0,101,179,.90) ;
+    z-index: 1000;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-sidebar ul{
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.nav-sidebar ul li{
+    line-height: 60px;
+    list-style: none;
+}
+
+.nav-sidebar ul li a{
+    display: block;
+    height: 60px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: #ffffff;
+    font-size: 1rem;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.nav-sidebar ul li a:hover{
+    display: block;
+    height: 60px;
+    font-weight: 800;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: #cc0027;
+    font-size: 1.5rem;
+    white-space: nowrap;
 }
