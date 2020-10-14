@@ -1,75 +1,70 @@
-.my-nav{
-   
-    background-color: rgb(0,101,179);
+.my-nav {
+    background-color: rgb(0, 101, 179);
     border-radius: 0 0 1rem 0rem;
     font-family: 'Playfair Display', serif;
 }
 
-body{
+body {
     font-family: 'Playfair Display', serif;
 }
 
-h2{
+h2 {
     font-family: 'Playfair Display', serif;
 }
 
-.group{
-    background-color: rgb(230,230,230);
+.group {
+    background-color: rgb(230, 230, 230);
     border-radius: 1rem;
     margin-bottom: 5rem;
 }
 
-.card{
+.card {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 2rem;
 }
 
-.portrait{
+.portrait {
     height: 25%;
     width: 20%;
     margin-top: 1rem;
 }
 
-#logo{
+#logo {
     width: 40%;
     height: 25%;
     margin: 1.5rem;
 }
 
-#small-logo{
-    height: 2.5em;
-    width: 2em;
-    margin-left: 6em;
+#small-logo {
+    height: 3.5em;
+    width: auto;
 }
 
-.addples{
+.addples {
     margin-right: 2em;
 }
 
-.info{
-    background-color: rgb(240,240,240);
+.info {
+    background-color: rgb(240, 240, 240);
     border-radius: 2rem;
 }
 
-.blank-list{
+.blank-list {
     list-style-type: none;
 }
 
-h2{
+h2 {
     padding-left: .5em;
 }
 
-.website-link{
+.website-link {
     padding-top: 2rem;
     padding-bottom: .5rem;
     font-size: larger;
 }
 
-
-
-
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -79,7 +74,7 @@ h2{
     z-index: 1000;
 }
 
-.menubutton{
+.menubutton {
     width: 30px;
     height: 100%;
     background-repeat: no-repeat;
@@ -89,36 +84,35 @@ h2{
     padding-right: 1rem;
 }
 
-.menubutton:hover{
+.menubutton:hover {
     /* background-color: #ffffff41; */
-   
 }
 
-.nav-sidebar{
+.nav-sidebar {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 0px;
     height: calc(100vh - 60px);
-    background-color:rgba(0,101,179,.90) ;
+    background-color: rgba(0, 101, 179, .90);
     z-index: 1000;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
     font-family: 'Playfair Display', serif;
 }
 
-.nav-sidebar ul{
+.nav-sidebar ul {
     padding-top: 15px;
     overflow: hidden;
     visibility: hidden;
 }
 
-.nav-sidebar ul li{
+.nav-sidebar ul li {
     line-height: 60px;
     list-style: none;
 }
 
-.nav-sidebar ul li a{
+.nav-sidebar ul li a {
     display: block;
     height: 60px;
     text-decoration: none;
@@ -130,8 +124,7 @@ h2{
     transition: all 0.3s ease-in-out;
 }
 
-
-.nav-sidebar ul li a:hover{
+.nav-sidebar ul li a:hover {
     display: block;
     height: 60px;
     font-weight: 800;

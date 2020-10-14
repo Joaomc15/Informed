@@ -1,19 +1,18 @@
-.my-nav{
-   
-    background-color: rgb(0,101,179);
+.my-nav {
+    background-color: rgb(0, 101, 179);
     border-radius: 0 0 1rem 0rem;
     font-family: 'Playfair Display', serif;
 }
-body{
+
+body {
     font-family: 'Playfair Display', serif;
 }
 
-
-h2{
+h2 {
     font-family: 'Playfair Display', serif;
 }
 
-h4{
+h4 {
     font-size: small;
     font-weight: 400;
     width: 10%;
@@ -21,19 +20,19 @@ h4{
     padding: 0;
 }
 
-.group{
-    background-color: rgb(240,240,240);
+.group {
+    background-color: rgb(240, 240, 240);
     border-radius: 1rem;
     margin-bottom: 5rem;
 }
 
-.card{
+.card {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 2rem;
 }
 
-.portrait{
+.portrait {
     height: 4rem;
     width: 4rem;
     margin-top: 1rem;
@@ -53,24 +52,22 @@ h4{
     transition: all 0.25s ease-in-out;
 }
 
-
-#logo{
+#logo {
     width: 40%;
     height: 25%;
     margin: 1.5rem;
 }
 
-#small-logo{
-    height: 2em;
+#small-logo {
+    height: 3.5em;
     width: auto;
 }
 
-.addples{
+.addples {
     margin-right: 2em;
 }
 
-
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -80,7 +77,7 @@ h4{
     z-index: 1000;
 }
 
-.menubutton{
+.menubutton {
     width: 30px;
     height: 100%;
     background-repeat: no-repeat;
@@ -90,37 +87,35 @@ h4{
     padding-right: 1rem;
 }
 
-.menubutton:hover{
+.menubutton:hover {
     /* background-color: #ffffff41; */
-   
 }
 
-.nav-sidebar{
+.nav-sidebar {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 0px;
     height: calc(100vh - 60px);
-    background-color:rgba(0,101,179,.90) ;
+    background-color: rgba(0, 101, 179, .90);
     z-index: 1000;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
     font-family: 'Playfair Display', serif;
-
 }
 
-.nav-sidebar ul{
+.nav-sidebar ul {
     padding-top: 15px;
     overflow: hidden;
     visibility: hidden;
 }
 
-.nav-sidebar ul li{
+.nav-sidebar ul li {
     line-height: 50px;
     list-style: none;
 }
 
-.nav-sidebar ul li a{
+.nav-sidebar ul li a {
     display: block;
     height: 60px;
     text-decoration: none;
@@ -132,7 +127,7 @@ h4{
     transition: all 0.3s ease-in-out;
 }
 
-.nav-sidebar ul li a:hover{
+.nav-sidebar ul li a:hover {
     display: block;
     height: 60px;
     font-weight: 800;
@@ -143,6 +138,6 @@ h4{
     white-space: nowrap;
 }
 
-.starred{
+.starred {
     text-align: center;
 }
