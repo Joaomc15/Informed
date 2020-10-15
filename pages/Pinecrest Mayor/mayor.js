@@ -6,22 +6,6 @@ for(i=0;i<shannon1.length; i++){
     });
 }
 
-let hoch1 = document.getElementsByClassName("hoch");
-
-for(i=0;i<hoch1.length; i++){
-    hoch1[i].addEventListener("click", function(){
-        location.pathname = "pages\\Hochkammer\\hoch.htm";
-    });
-}
-
-let corr1 = document.getElementsByClassName("corr");
-
-for(i=0;i<corr1.length; i++){
-    corr1[i].addEventListener("click", function(){
-        location.pathname = "pages\\Corradino\\corr.htm";
-    });
-}
-
 let logo = document.querySelector("#small-logo");
 logo.addEventListener("click", function(){
     location.pathname = "pages\\homepage\\homepage.htm";
