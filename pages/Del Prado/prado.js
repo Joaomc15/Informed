@@ -58,3 +58,16 @@ let home = document.querySelector("#home");
 home.addEventListener("click", function(){
     location.pathname = "pages\\homepage\\homepage.htm";
 });
+
+let gear = document.querySelector("#gear");
+
+gear.addEventListener("mouseover", function(){ 
+    gear.style.transform = "rotate(-180deg)";
+    gear.style.transition = "all 0.5s ease-in-out";
+        
+})
+
+gear.addEventListener("mouseleave", function(){ 
+    gear.style.transform = "";
+    gear.style.transition = "";
+})

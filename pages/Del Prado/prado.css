@@ -36,9 +36,20 @@ h2 {
     margin: 1.5rem;
 }
 
+<<<<<<< Updated upstream
 #small-logo {
     height: 3.5em;
     width: auto;
+=======
+
+#small-logo{
+    height: 3.5em;
+    width: auto;
+}
+
+.left-cons{
+    margin-left: -8%;
+>>>>>>> Stashed changes
 }
 
 .addples {

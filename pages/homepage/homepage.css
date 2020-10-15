@@ -1,10 +1,19 @@
+<<<<<<< Updated upstream
 .my-nav {
     background-color: rgb(0, 101, 179);
+=======
+.my-nav{
+    background-color: rgb(0,101,179);
+>>>>>>> Stashed changes
     border-radius: 0 0 1rem 0rem;
     font-family: 'Playfair Display', serif;
 }
 
+<<<<<<< Updated upstream
 body {
+=======
+body{
+>>>>>>> Stashed changes
     font-family: 'Playfair Display', serif;
 }
 
@@ -58,16 +67,36 @@ h4 {
     margin: 1.5rem;
 }
 
+<<<<<<< Updated upstream
 #small-logo {
+=======
+#small-logo{
+>>>>>>> Stashed changes
     height: 3.5em;
     width: auto;
 }
 
+<<<<<<< Updated upstream
 .addples {
     margin-right: 2em;
 }
 
 .navbar {
+=======
+.left-cons{
+    margin-left: -8%;
+}
+
+.addples{
+    margin-right: 2em;
+}
+
+.rounded-circle{
+    border: black solid;
+}
+
+.navbar{
+>>>>>>> Stashed changes
     position: fixed;
     top: 0;
     width: 100%;
@@ -106,7 +135,7 @@ h4 {
 
 .nav-sidebar ul {
     padding-top: 15px;
-    overflow: hidden;
+    overflow: auto;
     visibility: hidden;
 }
 
@@ -140,4 +169,8 @@ h4 {
 
 .starred {
     text-align: center;
+}
+.card-body .mybtn  {
+    background-color:  rgb(0,101,179);
+      
 }

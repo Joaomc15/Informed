@@ -58,3 +58,26 @@ let home = document.querySelector("#home");
 home.addEventListener("click", function(){
     location.pathname = "pages\\homepage\\homepage.htm";
 });
+
+let btns = document.querySelectorAll(".btn");
+
+for(i = 0; i < btns.length; i++){
+    btns[i].style.color = "white"
+    btns[i].addEventListener("mouseover", function(){
+        btns[i].style.backgroundcolor = "#cc0027"
+    });
+}
+
+let gear = document.querySelector("#gear");
+
+gear.addEventListener("mouseover", function(){ 
+    gear.style.transform = "rotate(-180deg)";
+    gear.style.transition = "all 0.5s ease-in-out";
+        
+})
+
+gear.addEventListener("mouseleave", function(){ 
+    gear.style.transform = "";
+    gear.style.transition = "";
+})
+
