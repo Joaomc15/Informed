@@ -1,10 +1,10 @@
-.my-nav{
-    background-color: rgb(0,101,179);
+.my-nav {
+    background-color: rgb(0, 101, 179);
     border-radius: 0 0 1rem 0rem;
     font-family: 'Playfair Display', serif;
 }
 
-body{
+body {
     font-family: 'Playfair Display', serif;
 }
 
@@ -58,24 +58,24 @@ h4 {
     margin: 1.5rem;
 }
 
-#small-logo{
+#small-logo {
     height: 3.5em;
     width: auto;
 }
 
-.left-cons{
-    margin-left: -8%;
+.left-cons {
+    margin-left: -6%;
 }
 
-.addples{
+.addples {
     margin-right: 2em;
 }
 
-.rounded-circle{
+.rounded-circle {
     border: black solid;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -145,7 +145,7 @@ h4 {
 .starred {
     text-align: center;
 }
-.card-body .mybtn  {
-    background-color:  rgb(0,101,179);
-      
+
+.card-body .mybtn {
+    background-color: rgb(0, 101, 179);
 }

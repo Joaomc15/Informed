@@ -36,14 +36,13 @@ h2 {
     margin: 1.5rem;
 }
 
-
-#small-logo{
+#small-logo {
     height: 3.5em;
     width: auto;
 }
 
-.left-cons{
-    margin-left: -8%;
+.left-cons {
+    margin-left: -4.5%;
 }
 
 .addples {
@@ -138,4 +137,12 @@ h2 {
     color: #cc0027;
     font-size: 1.5rem;
     white-space: nowrap;
+}
+
+#bio {
+    margin-top: .75rem;
+}
+
+.info {
+    margin: 2em;
 }
